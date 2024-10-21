@@ -27,18 +27,22 @@ export default function Footer() {
     <footer className="bg-black text-white py-16 px-8 md:px-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div className="space-y-8">
-          <h2 className="text-4xl font-semibold">
+          <h2 className="text-[35px] font-semibold">
             Your name could be the beginning of something great.
           </h2>
-          <p className="text-[#FAFAFA">
+          <p className="text-[#FAFAFA] text-[16px]">
             Leave your name and phone number and we will contact you within 20
             minutes to discuss your project.
           </p>
 
-          <div className="mt-12">
+          <div className="mt-20">
             <h3 className="text-2xl font-bold">nazarly.digital</h3>
-            <p className="text-[#FAFAFA]">&copy; 2024 Nazarly Digital.</p>
           </div>
+
+          <div className="bottom-2">
+             <p className="text-[#FAFAFA] text-[#14px]">&copy; 2024 Nazarly Digital.</p>
+          </div>
+         
         </div>
 
         <div className="space-y-8">
@@ -76,7 +80,7 @@ export default function Footer() {
           </form>
 
           <div className="grid grid-cols-2 gap-4">
-            <div className="space-y-2">
+            <div className="space-y-2 bg-[#161616] p-4 rounded-lg">
               <a href="#" className="block text-[#FAFAFA] hover:text-white">
                 Home
               </a>
@@ -90,13 +94,17 @@ export default function Footer() {
                 Careers
               </a>
             </div>
-            <div className="space-y-2">
+            <div className="space-y-2 bg-[#161616] rounded-lg p-4">
               <a href="#" className="block text-[#FAFAFA] hover:text-white">
                 Contact us
               </a>
-              <a href="#" className="block text-[#FAFAFA] hover:text-white">
+              <div>
+                <a href="#" className="block text-[#FAFAFA] hover:text-white">
                 Policy privacy
               </a>
+
+              </div>
+              
             </div>
           </div>
 

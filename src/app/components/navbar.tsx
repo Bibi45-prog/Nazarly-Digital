@@ -9,14 +9,18 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center bg-[#0D0D0D] p-4 text-white relative mx-10" >
-      <div className="bg-[#2626267A] w-[150px] h-auto p-2 rounded-lg text-[18px] text-center">
+    <nav className="flex items-center bg-[#0D0D0D] p-4 text-white relative mx-12">
+      {/* Left Section: Logo */}
+      <div className="bg-[#2626267A] w-auto h-auto p-2 rounded-lg text-[18px]">
         nazarly.digital
       </div>
 
-      <div className="flex items-center space-x-6">
+      {/* Center Section: Home and Dropdown */}
+      <div className="flex items-center space-x-6 flex-grow ml-4">
+        {/* For small screens (mobile) use a hamburger menu */}
         <div className="relative">
-          <div className="bg-[#2626267A] flex justify-between items-center p-2 rounded-lg w-[250px] cursor-pointer">
+          {/* Home button visible on larger screens */}
+          <div className="hidden justify-between lg:flex bg-[#2626267A] p-2 rounded-lg w-[200px] cursor-pointer">
             <h1 className="text-[18px] font-[400]">Home</h1>
             <button onClick={toggleDropdown} className="ml-2 focus:outline-none">
               <svg
@@ -77,8 +81,29 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      <div className="bg-[#2626267A] w-[150px] h-auto p-2 rounded-lg text-[18px] flex justify-end text-center cursor-pointer">
+      {/* Right Section: Contact Button */}
+      <div className="hidden lg:block bg-[#2626267A] p-2 rounded-lg text-[18px] cursor-pointer ml-auto">
         Contact us
+      </div>
+
+      {/* Mobile view */}
+      <div className="block lg:hidden">
+        <button onClick={toggleDropdown} className="ml-2 focus:outline-none">
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
+        </button>
       </div>
     </nav>
   );
