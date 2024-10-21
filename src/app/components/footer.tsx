@@ -30,21 +30,21 @@ export default function Footer() {
           <h2 className="text-4xl font-semibold">
             Your name could be the beginning of something great.
           </h2>
-          <p className="text-gray-400">
+          <p className="text-[#FAFAFA">
             Leave your name and phone number and we will contact you within 20
             minutes to discuss your project.
           </p>
 
           <div className="mt-12">
             <h3 className="text-2xl font-bold">nazarly.digital</h3>
-            <p className="text-gray-500">&copy; 2024 Nazarly Digital.</p>
+            <p className="text-[#FAFAFA]">&copy; 2024 Nazarly Digital.</p>
           </div>
         </div>
 
         <div className="space-y-8">
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label className="block text-gray-400">Email</label>
+              <label className="block text-[#FAFAFA]">Email</label>
               <input
                 type="email"
                 name="email"
@@ -52,11 +52,11 @@ export default function Footer() {
                 onChange={handleChange}
                 placeholder="hello@nazarly.digital"
                 required
-                className="w-full bg-gray-800 text-white p-4 rounded-lg focus:outline-none"
+                className="w-full bg-[#161616] text-white p-4 rounded-lg focus:outline-none"
               />
             </div>
             <div>
-              <label className="block text-gray-400">Phone</label>
+              <label className="block text-[#FAFAFA]">Phone</label>
               <input
                 type="text"
                 name="phone"
@@ -64,7 +64,7 @@ export default function Footer() {
                 onChange={handleChange}
                 placeholder="+(993 65) 85 58 73"
                 required
-                className="w-full bg-gray-800 text-white p-4 rounded-lg focus:outline-none"
+                className="w-full bg-[#161616] text-white p-4 rounded-lg focus:outline-none"
               />
             </div>
             <button
@@ -77,31 +77,31 @@ export default function Footer() {
 
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-2">
-              <a href="#" className="block text-gray-400 hover:text-white">
+              <a href="#" className="block text-[#FAFAFA] hover:text-white">
                 Home
               </a>
-              <a href="#" className="block text-gray-400 hover:text-white">
+              <a href="#" className="block text-[#FAFAFA] hover:text-white">
                 Work
               </a>
-              <a href="#" className="block text-gray-400 hover:text-white">
+              <a href="#" className="block text-[#FAFAFA] hover:text-white">
                 About
               </a>
-              <a href="#" className="block text-gray-400 hover:text-white">
+              <a href="#" className="block text-[#FAFAFA] hover:text-white">
                 Careers
               </a>
             </div>
             <div className="space-y-2">
-              <a href="#" className="block text-gray-400 hover:text-white">
+              <a href="#" className="block text-[#FAFAFA] hover:text-white">
                 Contact us
               </a>
-              <a href="#" className="block text-gray-400 hover:text-white">
+              <a href="#" className="block text-[#FAFAFA] hover:text-white">
                 Policy privacy
               </a>
             </div>
           </div>
 
           <div className="flex space-x-4 mt-8">
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="#" className="text-[#FAFAFA] hover:text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -112,7 +112,7 @@ export default function Footer() {
                 <path d="M12 5.838a6.163 6.163 0 100 12.325 6.163 6.163 0 000-12.325zm0 10.163a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 11-2.882 0 1.44 1.44 0 012.882 0z" />
               </svg>
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="#" className="text-[#FAFAFA] hover:text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
