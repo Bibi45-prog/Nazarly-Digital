@@ -114,7 +114,7 @@ export default function Home() {
                 duration: "6 months",
               },
               {
-                imageSrc: "/assets/img/another_project.svg",
+                imageSrc: "/assets/img/phone_mockup.svg",
                 title:
                   "A new era of education at the Dutch Creative Technology Academy",
                 client: "Reducations",
@@ -124,7 +124,7 @@ export default function Home() {
                 duration: "4 months",
               },
               {
-                imageSrc: "/assets/img/real_estate.svg",
+                imageSrc: "/assets/img/phone_mockup.svg",
                 title:
                   "A new era of education at the Dutch Creative Technology Academy",
                 client: "Reducations",
@@ -133,7 +133,7 @@ export default function Home() {
                 duration: "8 months",
               },
               {
-                imageSrc: "/assets/img/real_estate.svg",
+                imageSrc: "/assets/img/phone_mockup.svg",
                 title:
                   "A new era of education at the Dutch Creative Technology Academy",
                 client: "Reducations",
@@ -142,7 +142,7 @@ export default function Home() {
                 duration: "8 months",
               },
               {
-                imageSrc: "/assets/img/real_estate.svg",
+                imageSrc: "/assets/img/phone_mockup.svg",
                 title:
                   "A new era of education at the Dutch Creative Technology Academy",
                 client: "Reducations",
