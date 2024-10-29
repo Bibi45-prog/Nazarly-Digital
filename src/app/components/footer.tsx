@@ -4,7 +4,7 @@ import React, { useState } from "react";
 export default function Footer() {
   const [formData, setFormData] = useState({
     email: "",
-    phone: ""
+    phone: "",
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -16,10 +16,10 @@ export default function Footer() {
     e.preventDefault();
     console.log("Form Data Submitted:", formData);
     alert("Form submitted successfully!");
-    
+
     setFormData({
       email: "",
-      phone: ""
+      phone: "",
     });
   };
 
@@ -40,9 +40,10 @@ export default function Footer() {
           </div>
 
           <div className="bottom-2">
-             <p className="text-[#FAFAFA] text-[#14px]">&copy; 2024 Nazarly Digital.</p>
+            <p className="text-[#FAFAFA] text-[#14px]">
+              &copy; 2024 Nazarly Digital.
+            </p>
           </div>
-         
         </div>
 
         <div className="space-y-8">
@@ -100,11 +101,9 @@ export default function Footer() {
               </a>
               <div>
                 <a href="#" className="block text-[#FAFAFA] hover:text-white">
-                Policy privacy
-              </a>
-
+                  Policy privacy
+                </a>
               </div>
-              
             </div>
           </div>
 

@@ -10,19 +10,17 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="flex items-center bg-[#0D0D0D] p-4 text-white relative mx-12">
-      {/* Left Section: Logo */}
       <div className="bg-[#2626267A] w-auto h-auto p-2 rounded-lg text-[18px]">
         nazarly.digital
       </div>
-
-      {/* Center Section: Home and Dropdown */}
       <div className="flex items-center space-x-6 flex-grow ml-4">
-        {/* For small screens (mobile) use a hamburger menu */}
         <div className="relative">
-          {/* Home button visible on larger screens */}
           <div className="hidden justify-between lg:flex bg-[#2626267A] p-2 rounded-lg w-[200px] cursor-pointer">
             <h1 className="text-[18px] font-[400]">Home</h1>
-            <button onClick={toggleDropdown} className="ml-2 focus:outline-none">
+            <button
+              onClick={toggleDropdown}
+              className="ml-2 focus:outline-none"
+            >
               <svg
                 className="w-6 h-6"
                 fill="none"
@@ -81,12 +79,10 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      {/* Right Section: Contact Button */}
       <div className="hidden lg:block bg-[#2626267A] p-2 rounded-lg text-[18px] cursor-pointer ml-auto">
         Contact us
       </div>
 
-      {/* Mobile view */}
       <div className="block lg:hidden">
         <button onClick={toggleDropdown} className="ml-2 focus:outline-none">
           <svg
