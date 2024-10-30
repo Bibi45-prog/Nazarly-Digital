@@ -1,4 +1,3 @@
-/* "use client"; */
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Footer from "./components/footer";
@@ -17,6 +16,12 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const joystix = localFont({
+  src: "./fonts/joystix.ttf",
+  variable: "--font-joystix",
+  weight: "100 900",
+});
+
 export const metadata: Metadata = {
   title: "Nazarly Digital",
   description: "Digital Solutions",
@@ -29,8 +34,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" href="/assets/img/logo.svg" />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${joystix.variable} antialiased`}
       >
         <Navbar></Navbar>
         {children}

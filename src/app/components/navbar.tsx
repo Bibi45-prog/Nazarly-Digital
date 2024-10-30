@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="flex items-center bg-[#0D0D0D] p-4 text-white relative mx-12">
       <div className="bg-[#2626267A] w-auto h-auto p-2 rounded-lg text-[18px]">
-        nazarly.digital
+        <img src="/assets/img/logo.svg"></img>
       </div>
       <div className="flex items-center space-x-6 flex-grow ml-4">
         <div className="relative">
