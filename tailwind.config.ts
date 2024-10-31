@@ -17,7 +17,7 @@ const config: Config = {
       },
 
       fontFamily: {
-        joystix: ["Joystix", "sans-serif"],
+        joystix: ["var(--font-joystix)"],
       },
 
       backgroundImage: {

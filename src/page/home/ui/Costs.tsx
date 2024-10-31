@@ -68,22 +68,18 @@ export const Costs = () => {
               ORDER
             </button>
             <ul className="space-y-2 text-[#D4D4D4]">
-              <li className="flex items-center">
-                <span className="mr-2">
-                  <FontAwesomeIcon icon={faCheckCircle} />
-                </span>
+              <li className="flex gap-x-2 items-center">
+                <FontAwesomeIcon width={22} height={22} icon={faCheckCircle} />
                 {service.term}
               </li>
-              <li className="flex items-center">
-                <span className="mr-2">
-                  <FontAwesomeIcon icon={faCheckCircle} />
-                </span>
+
+              <li className="flex gap-x-2 items-center">
+                <FontAwesomeIcon width={22} height={22} icon={faCheckCircle} />
                 {service.uniqueDesign}
               </li>
-              <li className="flex items-center">
-                <span className="mr-2">
-                  <FontAwesomeIcon icon={faCheckCircle} />
-                </span>
+
+              <li className="flex gap-x-2 items-center">
+                <FontAwesomeIcon width={22} height={22} icon={faCheckCircle} />
                 {service.seoPromotion}
               </li>
             </ul>

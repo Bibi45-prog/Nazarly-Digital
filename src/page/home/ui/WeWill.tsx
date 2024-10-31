@@ -9,7 +9,7 @@ export const WeWill = () => {
       <div className="absolute inset-0 bg-black/40 backdrop-blur-2xl"></div>
 
       <div className="relative z-10 text-white text-center">
-        <h1 className="text-5xl font-joystix">
+        <h1 className="text-[40px] font-joystix">
           We will design the first screen <br /> of the site for free
         </h1>
         <img
