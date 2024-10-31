@@ -57,6 +57,11 @@ export default function Home() {
     },
   ];
 
+  const services2 = [
+    
+
+  ];
+
   return (
     <div className="relative items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans),var(--font-joystix) ] bg-[#0D0D0D] text-white ">
       {/* Section 1 */}
