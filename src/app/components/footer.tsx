@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faTelegram } from "@fortawesome/free-brands-svg-icons";
+import Image from "next/image";
 
 export default function Footer() {
   const [formData, setFormData] = useState({
@@ -38,7 +39,12 @@ export default function Footer() {
           </p>
 
           <div className="w-auto h-auto ">
-            <img src="/assets/img/logo.svg"></img>
+            <Image
+              src={"/assets/logo/logo.svg"}
+              width={50}
+              height={50}
+              alt="Logo"
+            />
           </div>
 
           <div className="bottom-2">
@@ -110,16 +116,10 @@ export default function Footer() {
           </div>
 
           <div className="flex space-x-4 mt-8">
-            <a
-              href=""
-              className="text-white hover:text-[#A3A3A3]"
-            >
+            <a href="" className="text-white hover:text-[#A3A3A3]">
               <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
-            <a
-              href=""
-              className="text-white hover:text-[#A3A3A3]"
-            >
+            <a href="" className="text-white hover:text-[#A3A3A3]">
               <FontAwesomeIcon icon={faTelegram} size="2x" />
             </a>
           </div>

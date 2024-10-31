@@ -34,13 +34,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" href="/assets/img/logo.svg" />
+      <link rel="icon" href="/assets/logo/logo.svg" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${joystix.variable} antialiased`}
       >
-        <Navbar></Navbar>
+        <Navbar />
         {children}
-        <Footer></Footer>
+        <Footer />
       </body>
     </html>
   );
